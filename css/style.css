@@ -1140,19 +1140,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: #a71736;
+  background-color: #fff;
   background-size: cover;
   padding: 80px 0;
 }
 
 #call-to-action .cta-title {
-  color: #fff;
+  color: #a71736;
   font-size: 28px;
   font-weight: 700;
 }
 
 #call-to-action .cta-text {
-  color: #fff;
+  color: #71736;
 }
 
 @media (min-width: 769px) {
@@ -1174,14 +1174,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #a71736;
+  color: #a71736;
 }
 
-#call-to-action .cta-btn:hover {
-  background: #FF001A;
-  border: 2px solid #FF001A;
-}
+
 footer {
   padding: 25px 0;
   text-align: center;
@@ -1228,7 +1225,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 /* Call To Action Section
 --------------------------------*/
 #call-to-action22 {
-  background: #fff;
+  background-color: #fff;
   background-size: cover;
   padding: 80px 0;
 }
@@ -1270,7 +1267,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 /* Call To Action Section
 --------------------------------*/
 #call-to-action33 {
-  background: #fff;
+  background-color: #fff;
   background-size: cover;
   padding: 80px 0;
 }
@@ -1311,4 +1308,70 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 #call-to-action33 .cta-btn:hover {
   background: #FF001A;
   border: 2px solid #FF001A;
+}
+body, html {
+    height: 100%;
+}
+
+.float{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25a3d3;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+  margin-top:16px;
+}
+
+.sticky-container{
+    padding:0px;
+    margin:0px;
+    position:fixed;
+    right:-130px;
+    top:230px;
+    width:210px;
+    z-index: 1100;
+}
+.sticky li{
+    list-style-type:none;
+    background: rgba(0, 0, 0, 0.5)
+    color:#efefef;
+    height:43px;
+    padding:0px;
+    margin:0px 0px 1px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
+}
+.sticky li:hover{
+    margin-left:-115px;
+}
+.sticky li img{
+    float:left;
+    margin:5px 4px;
+    margin-right:5px;
+}
+.sticky li p{
+    padding-top:5px;
+    margin:0px;
+    line-height:16px;
+    font-size:11px;
+}
+.sticky li p a{
+    text-decoration:none;
+    color:#a71736;
+}
+.sticky li p a:hover{
+    text-decoration:underline;
 }
