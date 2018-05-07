@@ -1375,3 +1375,44 @@ body, html {
 .sticky li p a:hover{
     text-decoration:underline;
 }
+
+/* Call To Action Section
+--------------------------------*/
+#call-to-action55 {
+  background-color: #fff;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+#call-to-action55 .cta-title {
+  color: #000000;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#call-to-action55 .cta-text {
+  color: #000000;
+}
+
+@media (min-width: 769px) {
+  #call-to-action55 .cta-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+#call-to-action55 .cta-btn {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #a71736;
+  color: #a71736;
+}
