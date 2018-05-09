@@ -314,7 +314,7 @@ header.masthead p {
 --------------------------------*/
 #call-to-action {
   background-image: url("../img/header2.jpg");
-  background-size: auto;
+  background-size: 100%;
   padding: 80px 0;
 }
 
