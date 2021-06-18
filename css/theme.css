@@ -560,7 +560,7 @@ ul.lead li {
   color: #666;
 }
 .color-primary {
-  color: #47b475 !important;
+  color: #7147b4 !important;
 }
 .color-red {
   color: #e31d3b !important;
@@ -734,7 +734,7 @@ footer.bg-dark li,
   text-transform: uppercase;
   letter-spacing: 1px;
   border-radius: 0;
-  color: #47b475;
+  color: #b047b4;
   text-align: center;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -746,8 +746,9 @@ footer.bg-dark li,
 .btn:last-of-type {
   margin-right: 0;
 }
+/*!---------- 1. CORES DOS BOTÕES ----------*/
 .btn:hover {
-  background: #47b475;
+  background: #006eff;
   color: #fff;
 }
 .btn-icon {
@@ -825,8 +826,9 @@ body.btn-rounded .btn {
 .bg-light .btn-filled:visited {
   color: #fff;
 }
+/*!---------- 1. CORES DAS LETRAS DENTRO DOS BOTÕES ----------*/
 .btn:visited {
-  color: #47b475;
+  color:black;
 }
 .btn-white:visited,
 .btn:visited:hover {
