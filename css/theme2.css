@@ -74,7 +74,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
-  color: #666666;
+  color: #ffffff;
   font-weight: 400;
 }
 h1,
@@ -90,7 +90,7 @@ h6,
 .h5,
 .h6 {
   font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
-  color: #252525;
+  color: #d4d4d4;
   font-weight: 300;
   font-variant-ligatures: common-ligatures;
   margin-top: 0;
@@ -849,7 +849,7 @@ div[data-overlay] ul {
 }
 .btn .btn__text,
 .btn i {
-  color: #252525;
+  color: #fffeff;
   border-color: #252525;
   font-weight: 700;
   font-size: 0.85714286em;
@@ -1109,7 +1109,7 @@ ul:last-child {
   transition: 0.3s ease;
   -webkit-transition: 0.3s ease;
   -moz-transition: 0.3s ease;
-  color: #252525;
+  color: #ffffff;
 }
 .menu-horizontal > li > a:hover,
 .menu-horizontal > li > span:hover,
@@ -2774,8 +2774,10 @@ a {
 .bg--site {
   background: #ffffff;
 }
+
+/**! .box com foto**/
 .bg--secondary {
-  background: #fafafa;
+  background: #000000;
 }
 .bg--primary {
   background: #4a90e2;

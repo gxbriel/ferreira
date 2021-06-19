@@ -545,10 +545,10 @@ ul.lead li {
 }
 /*!---------- 4. COLOURS ----------*/
 .bg-primary {
-  background: #e70d94 !important;
+  background: #fdffff !important;
 }
 .bg-secondary {
-  background: #f8f8f8;
+  background: #ffffff;
 }
 .bg-white {
   background: #fff;
@@ -785,8 +785,9 @@ footer.bg-dark li,
   line-height: 27px;
   min-width: 0;
 }
+/*!---------- 1. CORES DOS BOTÕES HOME----------*/
 .btn-filled {
-  background: #47b475;
+  background: #0c0c0c;
   color: #fff;
 }
 .btn-white,
@@ -860,8 +861,9 @@ body.btn-rounded .btn {
   -webkit-backface-visibility: hidden;
   max-width: 100%;
 }
+/*!---------- 7. NAVIGATION MENU NAVBAR----------*/
 nav {
-  background: #fff;
+  background: black;
   -webkit-backface-visibility: hidden;
   max-width: 100%;
 }
