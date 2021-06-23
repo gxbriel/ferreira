@@ -5541,7 +5541,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .team-s5 .team-photo:hover .team-show { opacity: 0; }
 
-.team-photo-bg:before { position: absolute; content: ""; border-radius: 50%; top: -12px; left: -12px; right: -12px; bottom: -12px; transform: scale(1); z-index: -1; opacity: 1; transition: all .5s ease; background-image: linear-gradient(90deg, #2b56f5 0%, #46bdf4 100%); }
+.team-photo-bg:before { position: absolute; content: ""; border-radius: 50%; top: -12px; left: -12px; right: -12px; bottom: -12px; transform: scale(1); z-index: -1; opacity: 1; transition: all .5s ease; background-image: linear-gradient(90deg, #00026a 0%, #111538 100%); }
 
 .team-s3-alt .team-photo-bg:before { opacity: 0; transform: scale(0.8); }
 
@@ -5579,7 +5579,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .team-social-s2 li a { width: auto; background-color: transparent; box-shadow: none; color: #7a0fff !important; }
 
-.tc-light .team-social-s2 li a { color: #46bdf4 !important; }
+.tc-light .team-social-s2 li a { color: #bebebe !important; }
 
 .team-social-s2 li a:hover { color: #2b56f5 !important; background-color: transparent; box-shadow: none; }
 
@@ -5621,7 +5621,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .team-s3-alt .team-position { color: #46bdf4; }
 
-.tc-light .team-s3-alt .team-position { color: #9947ff; }
+.tc-light .team-s3-alt .team-position { color: #bebebe; }
 
 .team-s4 .team-position { padding-bottom: 10px; }
 
