@@ -596,6 +596,8 @@ h6, .h6, .fz-6 { font-size: 0.94rem; }
 
 .bg-theme-grad-alternet { background-image: linear-gradient(to right, #46bdf4 0%, #7a0fff 100%) !important; }
 
+.bg-theme-dark-grad { background-image: linear-gradient(to right, #151635 0%, #08091b 100%) !important; }
+
 .bg-theme-dark { background-color: #08091b !important; }
 
 .bg-theme-dark.current { background-color: rgba(8, 9, 27, 0.7) !important; }
@@ -3194,9 +3196,9 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .nk-circle-animation:before, .nk-circle-animation:after { position: absolute; content: ''; border: 4px solid rgba(162, 180, 210, 0.3); border-radius: 50%; }
 
-.nk-circle-animation:before { top: 0; left: 0; bottom: 0; right: 0; border-top-color: #040476; border-right-color: #0045ff; animation: rotatecw 30s linear infinite 0s; }
+.nk-circle-animation:before { top: 0; left: 0; bottom: 0; right: 0; border-top-color: #080850; border-right-color: #061644; animation: rotatecw 30s linear infinite 0s; }
 
-.nk-circle-animation:after { top: 25px; left: 25px; bottom: 25px; right: 25px; border-top-color: #46bdf4; border-bottom-color: #040476; animation: rotateacw 24s linear infinite 0s; }
+.nk-circle-animation:after { top: 25px; left: 25px; bottom: 25px; right: 25px; border-top-color: #010538; border-bottom-color: #050541; animation: rotateacw 24s linear infinite 0s; }
 
 .nk-circle-animation.small:before, .nk-circle-animation.small:after { border-width: 2px; }
 
